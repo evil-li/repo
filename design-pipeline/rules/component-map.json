@@ -1,0 +1,50 @@
+{
+  "Button": {
+    "importPath": "@/components/ui/button",
+    "exportName": "Button",
+    "matchByName": ["Button", "Primary Button", "Secondary Button"],
+    "semanticKind": ["button"]
+  },
+  "Input": {
+    "importPath": "@/components/ui/input",
+    "exportName": "Input",
+    "matchByName": ["Input", "Text Field", "Search Input"],
+    "semanticKind": ["input", "textarea"]
+  },
+  "Card": {
+    "importPath": "@/components/ui/card",
+    "exportName": "Card",
+    "matchByName": ["Card", "Info Card", "Product Card"],
+    "semanticKind": ["card"]
+  },
+  "Badge": {
+    "importPath": "@/components/ui/badge",
+    "exportName": "Badge",
+    "matchByName": ["Badge", "Status Badge", "Tag"],
+    "semanticKind": ["badge"]
+  },
+  "Avatar": {
+    "importPath": "@/components/ui/avatar",
+    "exportName": "Avatar",
+    "matchByName": ["Avatar", "User Avatar"],
+    "semanticKind": ["avatar"]
+  },
+  "Tabs": {
+    "importPath": "@/components/ui/tabs",
+    "exportName": "Tabs",
+    "matchByName": ["Tabs", "Segmented Control"],
+    "semanticKind": ["tabs"]
+  },
+  "Table": {
+    "importPath": "@/components/ui/table",
+    "exportName": "Table",
+    "matchByName": ["Table", "Data Table"],
+    "semanticKind": ["table"]
+  },
+  "Modal": {
+    "importPath": "@/components/ui/modal",
+    "exportName": "Modal",
+    "matchByName": ["Modal", "Dialog"],
+    "semanticKind": ["modal"]
+  }
+}
