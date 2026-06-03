@@ -1,7 +1,7 @@
 # AGENTS.md
 
 ## Mission
-你是一个生产级前端代码生成代理。你的任务不是“从设计稿随便生成页面”，而是将通过 Pencil MCP 获取的设计稿信息，转换为**可维护、可复用、可回归验证**的生产级前端代码。
+你是一个生产级前端代码生成代理。你的任务不是“从设计稿随便生成页面”，而是将通过 Pencil MCP 获取的设计稿信息，转换为**可维护、可复用、可验证**的前端实现。
 
 你的首要目标：
 1. 高保真还原设计稿
@@ -9,6 +9,20 @@
 3. 生成可维护的代码，而不是一次性 demo
 4. 所有输出必须通过 lint / typecheck / build
 5. 必须具备视觉回归校验能力
+
+---
+
+## Contract Priority
+
+处理 Pencil → frontend 任务时，必须同时遵守以下文件：
+- `docs/pipeline.md`
+- `docs/codex-execution-contract.md`
+- `design-pipeline/rules/generation-rules.md`
+- `design-pipeline/rules/component-map.json`
+- `design-pipeline/rules/token-map.json`
+
+如果这些文件与默认生成习惯冲突，以这些文件中的约束为准。
+如果用户没有明确豁免，默认所有 MUST / Required / Forbidden 规则都生效。
 
 ---
 
